@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
-      "scalajs/*": [
+      "scalajs:*": [
         "./target/scala-3.2.2/sttp-playground-fastopt/*",
         "./target/scala-3.2.2/sttp-playground-opt/*"
       ]
