@@ -1,9 +1,6 @@
 import { defineConfig } from "vite";
+import scalaJSPlugin from "@scala-js/vite-plugin-scalajs";
 
 export default defineConfig({
-  resolve: {
-    alias: {
-      "@scala": "target/scala-3.2.2/sttp-playground-fastopt",
-    },
-  },
+  plugins: [scalaJSPlugin()],
 });

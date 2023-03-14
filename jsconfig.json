@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "paths": {
-      "@scala/*": ["./target/scala-3.2.2/sttp-playground-fastopt/*"]
+      "scalajs/*": [
+        "./target/scala-3.2.2/sttp-playground-fastopt/*",
+        "./target/scala-3.2.2/sttp-playground-opt/*"
+      ]
     }
   },
   "include": ["src/main/javascript/*.js"]
